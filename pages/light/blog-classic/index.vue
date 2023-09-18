@@ -1,0 +1,28 @@
+<template>
+  <div>
+    <CommonNavbar :lightMode="true" />
+    <main class="main-bg">
+      <InnerPagesBlogHeader :data="metadata" />
+      <InnerPagesBlogClassic />
+    </main>
+    <StartupFooter :lightMode="true" />
+  </div>
+</template>
+
+<script setup>
+const metadata = {
+  subTitle: "OUR BLOG",
+  title: "Latest News."
+}
+//= Page Metadata
+definePageMeta({
+  layout: 'default-light'
+});
+//= Page Head
+useHead({
+  titleTemplate: `%s - Blog Classic`,
+  bodyAttrs: {
+    class: 'main-bg'
+  }
+})
+</script>
