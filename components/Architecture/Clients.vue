@@ -28,7 +28,7 @@
 //= Modules
 import { Swiper, SwiperSlide } from 'swiper/vue';
 //= Data
-import data from '@/data/Architecture/clients.json';
+// import data from '@/data/Architecture/clients.json';
 
 const swiperOptions = {
   slidesPerView: 5,

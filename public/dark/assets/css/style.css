@@ -13,6 +13,7 @@
 -----------------------------------------------------------------*/
 /* Typography
 -----------------------------------------------------------------*/
+/* --------改 margin-bottom:-100px;---------- */
 * {
   margin: 0;
   padding: 0;
@@ -1391,9 +1392,9 @@ img.left {
 .no-cover {
   background-size: contain !important;
 }
-
+/* -----------------------------------------------------------------------------------------------------------------------------------改1395padding 原120px----- */
 .section-padding {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 
 .section-ptb {
@@ -1460,8 +1461,8 @@ img.left {
 }
 
 .circle-60 {
-  width: 60px;
-  height: 60px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -2372,6 +2373,7 @@ img.left {
 
 .ml-30 {
   margin-left: 30px !important;
+  margin-bottom:-100px;
 }
 
 .ml-35 {

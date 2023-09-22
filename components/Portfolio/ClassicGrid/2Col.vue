@@ -7,8 +7,9 @@
             <span class="text">Filter By :</span>
             <span v-for="(item, index) in data.filters" :data-filter="item.filter" :class="index === 0 ? 'active' : ''"
               :data-count="item.count" :key="item.id">
-              {{ item.title }}
+              {{item.title}}
             </span>
+           
           </div>
         </div>
       </div>
@@ -16,11 +17,13 @@
         <div class="row grid max-margin">
           <div :class="`col-md-6 items ${item.filter} info-overlay mb-80`" v-for="(item) in data.gallery" :key="item.id">
             <div class="item-img o-hidden">
-              <NuxtLink to="/dark/project-details1" class="imago wow">
+              <!-- <NuxtLink  to="/dark/project-details1"  class="imago wow"> -->
                 <div class="inner wow">
                   <img :src="item.image" alt="image" />
+                   <!-- <a href="page-about">  <img :src="data[0].image" alt="無法顯示圖片"/></a> -->
                 </div>
-              </NuxtLink>
+              <!-- </NuxtLink> -->
+              
               <div class="info">
                 <span class="mb-15">
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,10 +33,14 @@
                   </svg>
                 </span>
                 <h6 class="sub-title tag">
-                  <NuxtLink to="/dark/project-details1">© {{ item.year }} <br /> {{ item.type }}</NuxtLink>
+                  <!-- <NuxtLink to="/dark/project-details1"> -->
+                    © {{ item.year }} <br /> {{ item.type }}
+                  <!-- </NuxtLink> -->
                 </h6>
                 <h5>
-                  <NuxtLink to="/dark/project-details1">{{ item.title }}</NuxtLink>
+                  <!-- <NuxtLink to="/dark/project-details1"> -->
+                    {{ item.title }}
+                  <!-- </NuxtLink> -->
                 </h5>
               </div>
             </div>

@@ -37,7 +37,7 @@
               <div class="col-lg-8">
                 <div class="o-hidden">
                   <div class="img imago wow">
-                    <img :src="data[1].image" alt="" />
+                    <img :src="data[1].image" alt=""/>
                   </div>
                 </div>
                 <div class="cont mt-30 d-flex">
@@ -59,7 +59,7 @@
               <div class="col-lg-9">
                 <div class="o-hidden">
                   <div class="img imago wow">
-                    <img :src="data[2].image" alt="" />
+                    <img :src="data[2].image" alt=""/>
                   </div>
                 </div>
                 <div class="cont mt-30 d-flex">

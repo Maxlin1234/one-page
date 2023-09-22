@@ -12,7 +12,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" @click="toggleNavbar">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
+          <!-- <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">
               <span class="rolling-text">首頁</span>
@@ -22,22 +22,29 @@
                 <div class="row">
                   <div class="col-lg-3">
                     <div class="clumn">
-                      <div class="title">
-                        <h6 class="sub-title ls1">Home Dark</h6>
-                      </div>
-                      <div class="links">
+                      <div class="title"> -->
+                        <!-- <h6 class="sub-title ls1">Home</h6> -->
+                      <!-- </div> -->
+                      <!-- <div class="links"> -->
                         <!-- <NuxtLink class="dropdown-item" to="/dark/home-main">Main Home</NuxtLink> -->
-                        <NuxtLink class="dropdown-item" to="/dark/home-corporate">Corporate Business</NuxtLink>
-                        <NuxtLink class="dropdown-item" to="/dark/home-onepage">Home One page</NuxtLink>
+                        <!-- <NuxtLink class="dropdown-item" to="/dark/home-corporate">Corporate Business</NuxtLink> -->
+                        <!-- <NuxtLink class="dropdown-item" to="/dark/home-onepage">Home One page</NuxtLink> -->
                         <!-- <NuxtLink class="dropdown-item" to="/dark/home-digital-agency">Digital Agency</NuxtLink> -->
                         <!-- <NuxtLink class="dropdown-item" to="/dark/home-freelancer">Freelancer</NuxtLink> -->
                         <!-- <NuxtLink class="dropdown-item" to="/dark/home-marketing-agency">Marketing Agency</NuxtLink> -->
                         <!-- <NuxtLink class="dropdown-item" to="/dark/home-creative-agency">Creative Agency</NuxtLink> -->
                         <!-- <NuxtLink class="dropdown-item" to="/dark/home-startup">Startup Bussines</NuxtLink> -->
-                        <NuxtLink class="dropdown-item" to="/dark/home-architecture">Architecture</NuxtLink>
-                      </div>
-                    </div>
-                  </div>
+                        <!-- <NuxtLink class="dropdown-item" to="/dark/home-architecture">Architecture</NuxtLink> -->
+
+                        <!-- Home page -->
+                         <li class="nav-item">
+                   <NuxtLink class="nav-link" to="/dark/home-onepage"><span
+                   class="rolling-text">首頁</span></NuxtLink>
+                    </li>
+                      <!-- </div> -->
+                    <!-- </div>
+                  </div> -->
+                  <!-- home page end -->
                   <!-- <div class="col-lg-3">
                     <div class="clumn">
                       <div class="title">
@@ -56,7 +63,7 @@
                       </div>
                     </div>
                   </div> -->
-                  <div class="col-lg-3">
+                  <!-- <div class="col-lg-3">
                     <div class="clumn">
                       <div class="title">
                         <h6 class="sub-title ls1">Showcases</h6>
@@ -73,8 +80,8 @@
                         <NuxtLink class="dropdown-item" to="/dark/showcase-parallax">Vertical Parallax</NuxtLink>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-3">
+                  </div> -->
+                  <!-- <div class="col-lg-3">
                     <div class="clumn">
                       <div class="title">
                         <h6 class="sub-title ls1">Showcases Light</h6>
@@ -91,41 +98,53 @@
                         <NuxtLink class="dropdown-item" to="/light/showcase-parallax">Vertical Parallax</NuxtLink>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </div> -->
+                <!-- </div>
               </div>
             </div>
+          </li> -->
+          <li class="nav-item">
+            <NuxtLink class="nav-link" :to="`/${lightMode ? 'light' : 'dark'}/page-about`"><span
+                class="rolling-text">關於我們</span></NuxtLink>
           </li>
-          <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
+          <!-- -------origin about-------->
+          <!-- <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false"><span class="rolling-text">關於我們</span></a>
             <div class="dropdown-menu">
               <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/page-about`">About</NuxtLink>
+            ----------------------------------- -->
+
               <!-- <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/page-services`">Services</NuxtLink> -->
               <!-- <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/page-team`">Our Team</NuxtLink> -->
-              <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/page-contact`">Contact Us</NuxtLink>
-            </div>
-          </li>
+              <!-- <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/page-contact`">Contact Us</NuxtLink> -->
+            <!-- </div>
+          </li> -->
 
-          <li class="nav-item">
-            <NuxtLink class="nav-link" :to="`/${lightMode ? 'light' : 'dark'}/portfolio-grid-2`"><span
+
+          <!-- <li class="nav-item">
+            <NuxtLink class="nav-link" :to="`/${lightMode ? 'light' : 'dark'}/project-details2`"><span
                 class="rolling-text">作品介紹</span></NuxtLink>
-          </li>
+          </li>  -->
+         <!-- ----------test before------------- -->
+           <li class="nav-item">
+            <NuxtLink class="nav-link" :to="`/${lightMode ? 'light' : 'dark'}/portfolio-grid-2`"><span
+                class="rolling-text">作品分類</span></NuxtLink>
+          </li> 
 
-<!-- 
-          <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
+
+          <!-- <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-              aria-expanded="false"> -->
-              <!-- <span class="rolling-text" >作品介紹</span>
-            </a>
-            <ul class="dropdown-menu">
+              aria-expanded="false">
+              <span class="rolling-text" >作品介紹</span>
+            </a> -->
+            <!-- <ul class="dropdown-menu">
               <li class="dropdown-item" @mousemove="handleDropdownSideMouseMove"
                 @mouseleave="handleDropdownSideMouseLeave">
                 <a  href="#0">作品介紹 <i class="fas fa-angle-right icon-arrow"></i></a>
                 <ul class="dropdown-side"> -->
                   <!-- <li>
-                    <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/portfolio-grid-2`">Grid 2
-                      Columns</NuxtLink>
+                    <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/portfolio-grid-3`">作品介紹</NuxtLink>
                   </li> -->
                  <!-- <li>
                     <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/portfolio-grid-3`">Grid 3
@@ -173,7 +192,7 @@
               </li> -->
             <!-- </ul>
           </li> -->
-          <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
+          <!-- <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">
               <span class="rolling-text">最新消息</span>
@@ -181,13 +200,13 @@
             <div class="dropdown-menu">
               <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-classic`">Blog Standerd
               </NuxtLink>
-              <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-list`">Blog List</NuxtLink>
-              <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-half-img`">Image Out Frame
-              </NuxtLink>
-              <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-details`">Blog Details
-              </NuxtLink>
-            </div>
-          </li>
+              <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-list`">Blog List</NuxtLink> -->
+              <!-- <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-half-img`">Image Out Frame -->
+              <!-- </NuxtLink> -->
+              <!-- <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/blog-details`">Blog Details -->
+              <!-- </NuxtLink> -->
+            <!-- </div>
+          </li> -->
           <!-- <li class="nav-item dropdown" @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">
@@ -201,10 +220,10 @@
               <!-- <NuxtLink class="dropdown-item" :to="`/${lightMode ? 'light' : 'dark'}/shop-checkout`">Checkout</NuxtLink> -->
             <!-- </div> -->
           <!-- </li> -->
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <NuxtLink class="nav-link" :to="`/${lightMode ? 'light' : 'dark'}/page-contact`"><span
                 class="rolling-text">聯絡我們</span></NuxtLink>
-          </li>
+          </li> -->
         </ul>
       </div>
 

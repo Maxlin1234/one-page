@@ -1,12 +1,13 @@
 <template>
   <header class="header-main full-height valign bg-img parallaxie" data-background="/dark/assets/imgs/background/14.jpg"
-    data-overlay-dark="3">
+    data-overlay-dark="2">
     <div class="container ontop">
       <div class="row">
         <div class="col-lg-8">
-          <div class="caption">
-            <h5 class="fw-300 mb-15">2023</h5>
-            <h1 class="fz-80">FUTURE VISION LAB</h1>
+          <div class="caption" style="margin-bottom:150px;">
+            <div class="fonts"><img src="/dark/assets/imgs/background/font.png"></div>
+            <!-- <h5 class="fw-300 mb-15">2023</h5>
+            <h1 class="fz-80">FUTURE <br>VISION LAB</h1> -->
           </div>
         </div>
         <div class="col-lg-4 d-flex align-items-end justify-content-end justify-end">
@@ -21,7 +22,7 @@
                         </path>
                       </defs>
                       <text>
-                        <textPath xlink:href="#textcircle" textLength="900">DOME 2.0 - DOME 2.0 -</textPath>
+                        <textPath xlink:href="#textcircle" textLength="900">DOME 3.0 - DOME 3.0 -</textPath>
                       </text>
                     </svg>
                   </div>
@@ -36,7 +37,7 @@
               </NuxtLink>
             </div>
             <div>
-              <h6 class="sub-title">Explore <br /> Our Portfolio</h6>
+              <h6 class="sub-title">09.22 - 10.01<br/>10.14 - 12.24</h6>
             </div>
           </div>
         </div>

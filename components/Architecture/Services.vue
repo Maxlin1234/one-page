@@ -9,7 +9,7 @@
           <div class="line"></div>
         </div>
         <div class="title">
-          <h6 class="sub-title">最新消息</h6>
+          <h6 class="sub-title">近期活動</h6>
         </div>
       </div>
       <div class="row">

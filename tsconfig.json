@@ -1,7 +1,0 @@
-{
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "compilerOptions": {
-    "allowJs": true
-  },
-  "extends": "./.nuxt/tsconfig.json"
-}

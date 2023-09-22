@@ -4,12 +4,11 @@
     <div class="container box position-re">
       <ul class="rest">
         <li class="sd-dark">
-          <span class="numb">5920</span>
-          <h5>Succeeded <br /> Projects</h5>
+          <span class="numb">DOME 3.0</span>
+          <!-- <h5>Succeeded <br /> Projects</h5> -->
         </li>
         <li class="blur">
-          <h5>
-            Huge template <br /> collection.</h5>
+          <h5><br/>戶外穹頂劇場</h5>
           <span class="icon pe-7s-paper-plane"></span>
         </li>
       </ul>

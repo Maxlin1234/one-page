@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-md-6">
           <div class="sec-head md-mb50">
-            <h6 class="sub-title wow fadeInUp">What Clients Says?</h6>
+            <h6 class="sub-title wow fadeInUp">ARTIST</h6>
             <h2 class="d-rotate wow">
-              <span class="rotate-text">Testimonials</span>
+              <span class="rotate-text">藝術家介紹</span>
             </h2>
           </div>
         </div>
@@ -44,11 +44,11 @@
                     <div class="cont mb-40">
                       <div class="rate-stars mb-20 fz-12">
                         <span class="rate">
+                          <!-- <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i> -->
                         </span>
                       </div>
                       <p class="fw-400">{{ item.content }}</p>
@@ -57,7 +57,7 @@
                       <div>
                         <div class="img circle-60">
                           <img :src="lightMode ? '/dark/' + item.image : '/light/' + item.image" alt=""
-                            class="circle-img" />
+                            class="circle-img" /> 
                         </div>
                       </div>
                       <div class="ml-30">
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <div class="clients-carso section-padding pb-0">
+    <!-- <div class="clients-carso section-padding pb-0">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -84,20 +84,20 @@
                 <Swiper v-bind="brandsSwiperOptions" id="content-carousel-container-unq-clients">
                   <SwiperSlide v-for="item in brandsData" :key="item">
                     <div class="item">
-                      <div class="img icon-img-100">
+                      <!<div class="img icon-img-100">
                         <a :href="appData.author_link">
                           <img :src="'/dark/' + item" alt="" />
                         </a>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-              </ClientOnly>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                      </div> -->
+                    <!-- </div> -->
+                  <!-- </SwiperSlide> -->
+                <!-- </Swiper> -->
+              <!-- </ClientOnly> -->
+            <!-- </div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> --> 
     <div class="bg-pattern bg-img bg-repeat" data-background="/dark/assets/imgs/patterns/noise.png"></div>
   </section>
 </template>

@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <section class="team section-padding">
     <div class="container">
       <div class="sec-head mb-80">
@@ -48,4 +48,554 @@
 <script setup>
 //= Data
 import data from '@/data/OnePage/team.json';
+</script> -->
+
+<template>
+  <section class="portfolio sub-bg section-padding">
+    <div class="container">
+      <div class="sec-leter-head mb-80">
+        <div class="d-flex align-items-center">
+          <div class="leter">
+            <h4>P</h4>
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="title">
+          <h6 class="sub-title">作品介紹</h6>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        
+        <div class="col-lg-5">
+          <div class="item md-mb80">
+            <div class="o-hidden">
+              <div class="img imago wow">
+            <a href="project-details1">  <img :src="data[0].image" alt="無法顯示圖片"/></a>
+              </div>
+            </div>
+            <div class="cont mt-30 d-flex">
+              <div>
+                <h6 class="line-height-1">◉ 謝爾蓋·普羅科菲耶夫《迷宮》（德國）</h6>
+                <p>{{ data[0].type }}</p>
+              </div>
+              <div class="ml-auto">
+                <!-- <p class="fz-14">© {{ data[0].year }}</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 valign">
+          <div class="item full-width">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <a href="project-details1"> <img :src="data[1].image" alt="無法顯示圖片"/></a>
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height: 2rem;">◉ 弗朗西斯·阿代爾·麥肯齊《蘭花與蜜蜂》（加拿大）</h6>
+                    <p>{{ data[1].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[1].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 valign">
+          <div class="item mt-80 full-width">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <a href="project-details1">  <img :src="data[2].image" alt=""/></a>
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 馬爾滕·艾薩克·德希爾《蜂湧》 (德國) </h6>
+                     <p>{{ data[2].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[2].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[3].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 大衛·加德納《奶奶的房子》（加拿大） </h6>
+                    <p>{{ data[3].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- -------------------------- -->
+
+<div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[4].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 張味迪、戈維璐、蘇少禹《星際》 </h6>
+                     <p>{{ data[4].type }}</p>
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[5].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;;">◉ 塞巴斯蒂安・拉布魯尼和克萊門特・普泰格納《傑辛特.XYZ》 </h6>
+                    <p>{{ data[5].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------3end------------------------->
+
+        
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[6].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 莉迪亞・雅科諾夫斯基《導論：計量經濟學》</h6>
+                    <p>{{ data[6].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[7].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 移動故事屋《月球度假村》</h6>
+                  <p>{{ data[7].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ------------------------4end------------------------------ -->
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[8].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 夢想動畫《植物情人》</h6>
+                     <p>{{ data[8].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[9].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 謝文毅《彼岸 in DOME》</h6>
+                     <p>{{ data[9].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------5end------------------------------- -->
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[10].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 躍界新媒體《從心墨韻》</h6>
+                    <p>{{ data[10].type }}</p>
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[11].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ 吳秉聖《靈魂的副翼：穹丘》</h6>
+                    <p>{{ data[11].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------6end------------------- -->
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[12].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1">◉ Jeremy Oury《EXO CORTEX 2.0》</h6>
+                    <p>{{ data[12].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[13].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉ Yan Breuleux《Matière Première/Raw Materia》</h6>
+                    <p>{{ data[13].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------7end--------------- -->
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[14].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉ 玖格設計《繁》</h6>
+                    <p>{{ data[14].type }}</p>
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[15].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉  NANONANO《narrative of landscape》</h6>
+                    <p>{{ data[15].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------8end-------------------- -->
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[16].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉  XTRUX x 晟SHENG《觀》</h6>
+                     <p>{{ data[16].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[17].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉ 魏廷宇《沉浸場域作品精選：20-23》</h6>
+                     <p>{{ data[17].type }}</p> 
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!------------9end---------------------->
+
+  <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[18].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉ 莊禾《夜遊 2023》</h6>
+                    <p>{{ data[18].type }}</p>
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[19].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;">◉ 黃偉Ｘ鄭道元《INNERSTAR 01 : Reddening》</h6>
+                    <p>{{ data[19].type }}</p>
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!------------10end---------------------->
+
+         
+  <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow">
+                    <img :src="data[20].image" alt="" />
+                  </div>
+                </div>
+                <div class="cont mt-30 d-flex">
+                  <div>
+                    <h6 class="line-height-1" style="line-height:2rem;"> ◉ 蔡奇宏《封包對撞機》</h6>
+                    <p>{{ data[20].type }}</p>
+                  </div>
+                  <div class="ml-auto">
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+     <div class="col-lg-6">
+          <div class="item mt-80">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <div class="o-hidden">
+                  <div class="img imago wow"> 
+                     <!-- <img :src="data[19].image" alt="" />  -->
+                   </div>
+                </div> 
+                <div class="cont mt-30 d-flex">
+                  <div> 
+                    <!-- <h6 class="line-height-1" style="line-height:2rem;">◉ 黃偉Ｘ鄭道元《INNERSTAR 01 : Reddening》◉ </h6>  -->
+                    <!-- <p>{{ data[3].type }}</p> -->
+                  </div>
+                  <div class="ml-auto"> 
+                    <!-- <p class="fz-14">© {{ data[3].year }}</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        
+        
+      </div>
+    </div>
+  </section>
+</template>
+  
+<script setup>
+//= Data
+import data from '@/data/Architecture/portfolio.json';
 </script>

@@ -20,8 +20,8 @@
               <div class="col-md-9">
                 <p>{{ item.text }}.</p>
                 <div class="vew-all mt-50 ml-25">
-                  <NuxtLink to="/dark/project-details2" class="sub-title">
-                    Explore More
+                  <!-- <NuxtLink to="/dark/project-details2" class="sub-title">
+                    瞭解更多
                     <span>
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -29,7 +29,7 @@
                           fill="currentColor"></path>
                       </svg>
                     </span>
-                  </NuxtLink>
+                  </NuxtLink> -->
                 </div>
               </div>
             </div>

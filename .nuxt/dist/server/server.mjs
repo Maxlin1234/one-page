@@ -457,9 +457,6 @@ const unhead_KgADcZ0jPj = /* @__PURE__ */ defineNuxtPlugin({
     }
   }
 });
-const __nuxt_page_meta$H = {
-  layout: "showcases"
-};
 const __nuxt_page_meta$G = {
   layout: "showcases"
 };
@@ -473,7 +470,7 @@ const __nuxt_page_meta$D = {
   layout: "showcases"
 };
 const __nuxt_page_meta$C = {
-  layout: "preview"
+  layout: "showcases"
 };
 const __nuxt_page_meta$B = {
   layout: "default-light"
@@ -596,7 +593,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-04f83fd0.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-50b1e0c3.js").then((m) => m.default || m)
   },
   {
     name: "dark-blog-details",
@@ -604,7 +601,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-a80e96ae.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-77af1bc5.js").then((m) => m.default || m)
   },
   {
     name: "dark-blog-half-img",
@@ -612,7 +609,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-9cb735fb.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-4b58f02a.js").then((m) => m.default || m)
   },
   {
     name: "dark-blog-list",
@@ -620,7 +617,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-fc18911f.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-83dfadac.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-architecture",
@@ -628,7 +625,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-9ab31fcd.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-5cfc939f.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-corporate",
@@ -636,7 +633,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-b5cad4a9.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-89ff4a53.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-creative-agency",
@@ -644,7 +641,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-48546ec3.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-541d1b53.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-digital-agency",
@@ -652,7 +649,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-ef1d3f85.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-9f450fd7.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-freelancer",
@@ -660,7 +657,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-78ef8088.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-d575c249.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-main",
@@ -668,7 +665,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-306d7ec6.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-71b3a11a.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-marketing-agency",
@@ -676,7 +673,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-005c1146.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-e210ca8c.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-onepage",
@@ -684,7 +681,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-79b64833.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-8ddd3e70.js").then((m) => m.default || m)
   },
   {
     name: "dark-home-startup",
@@ -692,7 +689,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-3664a5aa.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-dce8aae1.js").then((m) => m.default || m)
   },
   {
     name: "dark-page-about",
@@ -700,7 +697,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-89ddbf0b.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-27184f1f.js").then((m) => m.default || m)
   },
   {
     name: "dark-page-contact",
@@ -708,7 +705,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-cd00e9e6.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-9c91e936.js").then((m) => m.default || m)
   },
   {
     name: "dark-page-services",
@@ -716,7 +713,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-d4d1cb6e.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-3cc5eead.js").then((m) => m.default || m)
   },
   {
     name: "dark-page-team",
@@ -724,7 +721,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-549e974c.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-7dda224f.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-grid-2",
@@ -732,7 +729,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-cc4ea215.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-6406fa64.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-grid-3",
@@ -740,7 +737,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-1ed97f5f.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-9577e5c5.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-grid-4",
@@ -748,7 +745,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-36f390dd.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-0eaa085d.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-masonry-2",
@@ -756,7 +753,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-d971aaa8.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-f100a513.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-masonry-3",
@@ -764,7 +761,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-272caffb.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-d0eb549b.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-masonry-4",
@@ -772,7 +769,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-ebed9ca3.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-ef8ab0f4.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-metro",
@@ -780,7 +777,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-8a66c0dc.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-d76cdb16.js").then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-modern",
@@ -788,7 +785,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-0ded322b.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-490695c6.js").then((m) => m.default || m)
   },
   {
     name: "dark-project-details1",
@@ -796,7 +793,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-307c35fe.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-36f43cd6.js").then((m) => m.default || m)
   },
   {
     name: "dark-project-details2",
@@ -804,7 +801,15 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-275aa141.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-a571a3bd.js").then((m) => m.default || m)
+  },
+  {
+    name: "dark-project-details3",
+    path: "/dark/project-details3",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import("./_nuxt/index-988b2944.js").then((m) => m.default || m)
   },
   {
     name: "dark-shop-cart",
@@ -812,7 +817,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-d97a94b2.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-e434a688.js").then((m) => m.default || m)
   },
   {
     name: "dark-shop-checkout",
@@ -820,7 +825,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-6272bfc0.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-27f6acec.js").then((m) => m.default || m)
   },
   {
     name: "dark-shop-list",
@@ -828,7 +833,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-06499c12.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-18e2a25c.js").then((m) => m.default || m)
   },
   {
     name: "dark-shop-product",
@@ -836,46 +841,46 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-b1d9f6a6.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-0cbbe872.js").then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.name) ?? "dark-showcase-carousel",
-    path: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.path) ?? "/dark/showcase-carousel",
-    meta: __nuxt_page_meta$H || {},
-    alias: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.alias) || [],
-    redirect: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.redirect) || void 0,
-    component: () => import("./_nuxt/index-07dc6d5f.js").then((m) => m.default || m)
-  },
-  {
-    name: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.name) ?? "dark-showcase-circle-slider",
-    path: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.path) ?? "/dark/showcase-circle-slider",
+    name: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.name) ?? "dark-showcase-carousel",
+    path: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.path) ?? "/dark/showcase-carousel",
     meta: __nuxt_page_meta$G || {},
     alias: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.alias) || [],
     redirect: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.redirect) || void 0,
-    component: () => import("./_nuxt/index-89b030d8.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-07dc6d5f.js").then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.name) ?? "dark-showcase-frame-slider",
-    path: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.path) ?? "/dark/showcase-frame-slider",
+    name: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.name) ?? "dark-showcase-circle-slider",
+    path: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.path) ?? "/dark/showcase-circle-slider",
     meta: __nuxt_page_meta$F || {},
     alias: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.alias) || [],
     redirect: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.redirect) || void 0,
-    component: () => import("./_nuxt/index-66904f61.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-89b030d8.js").then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.name) ?? "dark-showcase-interactive-center-horizontal",
-    path: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.path) ?? "/dark/showcase-interactive-center-horizontal",
+    name: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.name) ?? "dark-showcase-frame-slider",
+    path: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.path) ?? "/dark/showcase-frame-slider",
     meta: __nuxt_page_meta$E || {},
     alias: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.alias) || [],
     redirect: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.redirect) || void 0,
-    component: () => import("./_nuxt/index-5dd0384f.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-66904f61.js").then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.name) ?? "dark-showcase-interactive-center",
-    path: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.path) ?? "/dark/showcase-interactive-center",
+    name: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.name) ?? "dark-showcase-interactive-center-horizontal",
+    path: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.path) ?? "/dark/showcase-interactive-center-horizontal",
     meta: __nuxt_page_meta$D || {},
     alias: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.alias) || [],
     redirect: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.redirect) || void 0,
+    component: () => import("./_nuxt/index-5dd0384f.js").then((m) => m.default || m)
+  },
+  {
+    name: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.name) ?? "dark-showcase-interactive-center",
+    path: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.path) ?? "/dark/showcase-interactive-center",
+    meta: __nuxt_page_meta$C || {},
+    alias: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.alias) || [],
+    redirect: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.redirect) || void 0,
     component: () => import("./_nuxt/index-ef3607bd.js").then((m) => m.default || m)
   },
   {
@@ -895,12 +900,12 @@ const _routes = [
     component: () => import("./_nuxt/index-7a7332ba.js").then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.name) ?? "index",
-    path: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.path) ?? "/",
-    meta: __nuxt_page_meta$C || {},
-    alias: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.alias) || [],
-    redirect: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.redirect) || void 0,
-    component: () => import("./_nuxt/index-6390f2d4.js").then((m) => m.default || m)
+    name: "index",
+    path: "/",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import("./_nuxt/index-9aa3a284.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$B == null ? void 0 : __nuxt_page_meta$B.name) ?? "light-blog-classic",
@@ -908,7 +913,7 @@ const _routes = [
     meta: __nuxt_page_meta$B || {},
     alias: (__nuxt_page_meta$B == null ? void 0 : __nuxt_page_meta$B.alias) || [],
     redirect: (__nuxt_page_meta$B == null ? void 0 : __nuxt_page_meta$B.redirect) || void 0,
-    component: () => import("./_nuxt/index-9cfe1bdc.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-0491ae89.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$A == null ? void 0 : __nuxt_page_meta$A.name) ?? "light-blog-details",
@@ -916,7 +921,7 @@ const _routes = [
     meta: __nuxt_page_meta$A || {},
     alias: (__nuxt_page_meta$A == null ? void 0 : __nuxt_page_meta$A.alias) || [],
     redirect: (__nuxt_page_meta$A == null ? void 0 : __nuxt_page_meta$A.redirect) || void 0,
-    component: () => import("./_nuxt/index-d9423bc1.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-8c0de59d.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.name) ?? "light-blog-half-img",
@@ -924,7 +929,7 @@ const _routes = [
     meta: __nuxt_page_meta$z || {},
     alias: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.alias) || [],
     redirect: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.redirect) || void 0,
-    component: () => import("./_nuxt/index-615f593d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-124ed6ca.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.name) ?? "light-blog-list",
@@ -932,7 +937,7 @@ const _routes = [
     meta: __nuxt_page_meta$y || {},
     alias: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.alias) || [],
     redirect: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.redirect) || void 0,
-    component: () => import("./_nuxt/index-e110dc84.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-4567b29c.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$x == null ? void 0 : __nuxt_page_meta$x.name) ?? "light-home-architecture",
@@ -940,7 +945,7 @@ const _routes = [
     meta: __nuxt_page_meta$x || {},
     alias: (__nuxt_page_meta$x == null ? void 0 : __nuxt_page_meta$x.alias) || [],
     redirect: (__nuxt_page_meta$x == null ? void 0 : __nuxt_page_meta$x.redirect) || void 0,
-    component: () => import("./_nuxt/index-274509b8.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-85cd26fc.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$w == null ? void 0 : __nuxt_page_meta$w.name) ?? "light-home-corporate",
@@ -948,7 +953,7 @@ const _routes = [
     meta: __nuxt_page_meta$w || {},
     alias: (__nuxt_page_meta$w == null ? void 0 : __nuxt_page_meta$w.alias) || [],
     redirect: (__nuxt_page_meta$w == null ? void 0 : __nuxt_page_meta$w.redirect) || void 0,
-    component: () => import("./_nuxt/index-682f7388.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-8ec69276.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$v == null ? void 0 : __nuxt_page_meta$v.name) ?? "light-home-creative-agency",
@@ -956,7 +961,7 @@ const _routes = [
     meta: __nuxt_page_meta$v || {},
     alias: (__nuxt_page_meta$v == null ? void 0 : __nuxt_page_meta$v.alias) || [],
     redirect: (__nuxt_page_meta$v == null ? void 0 : __nuxt_page_meta$v.redirect) || void 0,
-    component: () => import("./_nuxt/index-72095141.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-78da6868.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$u == null ? void 0 : __nuxt_page_meta$u.name) ?? "light-home-digital-agency",
@@ -964,7 +969,7 @@ const _routes = [
     meta: __nuxt_page_meta$u || {},
     alias: (__nuxt_page_meta$u == null ? void 0 : __nuxt_page_meta$u.alias) || [],
     redirect: (__nuxt_page_meta$u == null ? void 0 : __nuxt_page_meta$u.redirect) || void 0,
-    component: () => import("./_nuxt/index-bb7f7554.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-1a39f0ba.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$t == null ? void 0 : __nuxt_page_meta$t.name) ?? "light-home-freelancer",
@@ -972,7 +977,7 @@ const _routes = [
     meta: __nuxt_page_meta$t || {},
     alias: (__nuxt_page_meta$t == null ? void 0 : __nuxt_page_meta$t.alias) || [],
     redirect: (__nuxt_page_meta$t == null ? void 0 : __nuxt_page_meta$t.redirect) || void 0,
-    component: () => import("./_nuxt/index-7434dfa9.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-fe684cc6.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.name) ?? "light-home-main",
@@ -980,7 +985,7 @@ const _routes = [
     meta: __nuxt_page_meta$s || {},
     alias: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.alias) || [],
     redirect: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.redirect) || void 0,
-    component: () => import("./_nuxt/index-b37941e9.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-d9dfb3a5.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.name) ?? "light-home-marketing-agency",
@@ -988,7 +993,7 @@ const _routes = [
     meta: __nuxt_page_meta$r || {},
     alias: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.alias) || [],
     redirect: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.redirect) || void 0,
-    component: () => import("./_nuxt/index-7a957981.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-e2019bb7.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.name) ?? "light-home-onepage",
@@ -996,7 +1001,7 @@ const _routes = [
     meta: __nuxt_page_meta$q || {},
     alias: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.alias) || [],
     redirect: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.redirect) || void 0,
-    component: () => import("./_nuxt/index-c6bff284.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-c1f146db.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.name) ?? "light-home-startup",
@@ -1004,7 +1009,7 @@ const _routes = [
     meta: __nuxt_page_meta$p || {},
     alias: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.alias) || [],
     redirect: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.redirect) || void 0,
-    component: () => import("./_nuxt/index-cbf106f9.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-1afd80d6.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.name) ?? "light-page-about",
@@ -1012,7 +1017,7 @@ const _routes = [
     meta: __nuxt_page_meta$o || {},
     alias: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.alias) || [],
     redirect: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.redirect) || void 0,
-    component: () => import("./_nuxt/index-ca36b64b.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-e875d97e.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$n == null ? void 0 : __nuxt_page_meta$n.name) ?? "light-page-contact",
@@ -1020,7 +1025,7 @@ const _routes = [
     meta: __nuxt_page_meta$n || {},
     alias: (__nuxt_page_meta$n == null ? void 0 : __nuxt_page_meta$n.alias) || [],
     redirect: (__nuxt_page_meta$n == null ? void 0 : __nuxt_page_meta$n.redirect) || void 0,
-    component: () => import("./_nuxt/index-c661940d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-0fbe31f5.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$m == null ? void 0 : __nuxt_page_meta$m.name) ?? "light-page-services",
@@ -1028,7 +1033,7 @@ const _routes = [
     meta: __nuxt_page_meta$m || {},
     alias: (__nuxt_page_meta$m == null ? void 0 : __nuxt_page_meta$m.alias) || [],
     redirect: (__nuxt_page_meta$m == null ? void 0 : __nuxt_page_meta$m.redirect) || void 0,
-    component: () => import("./_nuxt/index-029bf3f0.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-8af4e18b.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$l == null ? void 0 : __nuxt_page_meta$l.name) ?? "light-page-team",
@@ -1036,7 +1041,7 @@ const _routes = [
     meta: __nuxt_page_meta$l || {},
     alias: (__nuxt_page_meta$l == null ? void 0 : __nuxt_page_meta$l.alias) || [],
     redirect: (__nuxt_page_meta$l == null ? void 0 : __nuxt_page_meta$l.redirect) || void 0,
-    component: () => import("./_nuxt/index-eb728bc6.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-e02c1059.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$k == null ? void 0 : __nuxt_page_meta$k.name) ?? "light-portfolio-grid-2",
@@ -1044,7 +1049,7 @@ const _routes = [
     meta: __nuxt_page_meta$k || {},
     alias: (__nuxt_page_meta$k == null ? void 0 : __nuxt_page_meta$k.alias) || [],
     redirect: (__nuxt_page_meta$k == null ? void 0 : __nuxt_page_meta$k.redirect) || void 0,
-    component: () => import("./_nuxt/index-6760be2f.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-afa587fd.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$j == null ? void 0 : __nuxt_page_meta$j.name) ?? "light-portfolio-grid-3",
@@ -1052,7 +1057,7 @@ const _routes = [
     meta: __nuxt_page_meta$j || {},
     alias: (__nuxt_page_meta$j == null ? void 0 : __nuxt_page_meta$j.alias) || [],
     redirect: (__nuxt_page_meta$j == null ? void 0 : __nuxt_page_meta$j.redirect) || void 0,
-    component: () => import("./_nuxt/index-eb66c34d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-0d799a16.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.name) ?? "light-portfolio-grid-4",
@@ -1060,7 +1065,7 @@ const _routes = [
     meta: __nuxt_page_meta$i || {},
     alias: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.alias) || [],
     redirect: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.redirect) || void 0,
-    component: () => import("./_nuxt/index-d670b6ef.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-f239d2bf.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.name) ?? "light-portfolio-masonry-2",
@@ -1068,7 +1073,7 @@ const _routes = [
     meta: __nuxt_page_meta$h || {},
     alias: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.alias) || [],
     redirect: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.redirect) || void 0,
-    component: () => import("./_nuxt/index-1c6c82c3.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-4d0ad141.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.name) ?? "light-portfolio-masonry-3",
@@ -1076,7 +1081,7 @@ const _routes = [
     meta: __nuxt_page_meta$g || {},
     alias: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.alias) || [],
     redirect: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.redirect) || void 0,
-    component: () => import("./_nuxt/index-50397769.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-4bb10a22.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.name) ?? "light-portfolio-masonry-4",
@@ -1084,7 +1089,7 @@ const _routes = [
     meta: __nuxt_page_meta$f || {},
     alias: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.alias) || [],
     redirect: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.redirect) || void 0,
-    component: () => import("./_nuxt/index-d065e75d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-7d2832a1.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$e == null ? void 0 : __nuxt_page_meta$e.name) ?? "light-portfolio-metro",
@@ -1092,7 +1097,7 @@ const _routes = [
     meta: __nuxt_page_meta$e || {},
     alias: (__nuxt_page_meta$e == null ? void 0 : __nuxt_page_meta$e.alias) || [],
     redirect: (__nuxt_page_meta$e == null ? void 0 : __nuxt_page_meta$e.redirect) || void 0,
-    component: () => import("./_nuxt/index-7b0581f8.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-3aa6fe6d.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.name) ?? "light-portfolio-modern",
@@ -1100,7 +1105,7 @@ const _routes = [
     meta: __nuxt_page_meta$d || {},
     alias: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.alias) || [],
     redirect: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.redirect) || void 0,
-    component: () => import("./_nuxt/index-1159285b.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-8c58bb63.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.name) ?? "light-project-details1",
@@ -1108,7 +1113,7 @@ const _routes = [
     meta: __nuxt_page_meta$c || {},
     alias: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.alias) || [],
     redirect: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.redirect) || void 0,
-    component: () => import("./_nuxt/index-f47ef36c.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-8f72e412.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.name) ?? "light-project-details2",
@@ -1116,7 +1121,7 @@ const _routes = [
     meta: __nuxt_page_meta$b || {},
     alias: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.alias) || [],
     redirect: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.redirect) || void 0,
-    component: () => import("./_nuxt/index-a4080d34.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-52960c3d.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.name) ?? "light-shop-cart",
@@ -1124,7 +1129,7 @@ const _routes = [
     meta: __nuxt_page_meta$a || {},
     alias: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.alias) || [],
     redirect: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.redirect) || void 0,
-    component: () => import("./_nuxt/index-77b99a68.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-47b5f85e.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$9 == null ? void 0 : __nuxt_page_meta$9.name) ?? "light-shop-checkout",
@@ -1132,7 +1137,7 @@ const _routes = [
     meta: __nuxt_page_meta$9 || {},
     alias: (__nuxt_page_meta$9 == null ? void 0 : __nuxt_page_meta$9.alias) || [],
     redirect: (__nuxt_page_meta$9 == null ? void 0 : __nuxt_page_meta$9.redirect) || void 0,
-    component: () => import("./_nuxt/index-5a697d3b.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-f67225f1.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.name) ?? "light-shop-list",
@@ -1140,7 +1145,7 @@ const _routes = [
     meta: __nuxt_page_meta$8 || {},
     alias: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.alias) || [],
     redirect: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.redirect) || void 0,
-    component: () => import("./_nuxt/index-ac32f5e4.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-7173ea2f.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.name) ?? "light-shop-product",
@@ -1148,7 +1153,7 @@ const _routes = [
     meta: __nuxt_page_meta$7 || {},
     alias: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.alias) || [],
     redirect: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.redirect) || void 0,
-    component: () => import("./_nuxt/index-be2674ba.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-9bfa7148.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.name) ?? "light-showcase-carousel",

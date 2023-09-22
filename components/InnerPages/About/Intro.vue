@@ -2,6 +2,7 @@
   <section class="intro-corp section-padding pt-0">
     <div class="container">
       <div class="row justify-content-around">
+        <!-- ---------------------------------------------------------------- -->
         <!-- <div class="col-lg-5 valign md-mb50">
           <div class="imgs mb-80">
             <div class="img1 wow fadeInUp">

@@ -1,5 +1,5 @@
 <template>
-  <section class="about section-padding">
+  <!-- <section class="about section-padding"> -->
     <div class="container">
       <div class="row md-marg">
         <div class="col-lg-6 valign">
@@ -55,5 +55,5 @@
         </div>
       </div>
     </div>
-  </section>
+  <!-- </section> -->
 </template>

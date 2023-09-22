@@ -3,8 +3,10 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate" ,
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

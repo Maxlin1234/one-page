@@ -1,30 +1,97 @@
 [
   {
     "id": 1,
-    "content": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    "image": "assets/imgs/testim/4.jpg",
-    "author": "Leonard Heiser",
-    "position": "CEO"
+    "content": "新媒體藝術家，創作為電腦音樂、音像演出、新媒體裝置。獲選C-lab法國聲響實驗中心 IRCAM參訪、紐約EMPAC聲響實驗室共製以及紐約駐村。2020獲選C-LAB Creators創研計畫，並於2021以一當代舞團聲音設計，首演於巴塞爾邁阿密海灘藝術展。2023虛擬實境聲音設計作品被選於參展2023年的安錫國際動畫電影節。創作發表於台灣雙年展、台灣國際光影藝術節、台灣燈會、月津港燈節、台北白晝之夜等活動。",
+    "image": "assets/imgs/testim/1.jpg",
+    "author": "吳秉聖",
+    "position": ""
   },
   {
     "id": 2,
-    "content": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
-    "image": "assets/imgs/testim/4.jpg",
-    "author": "Leonard Heiser",
-    "position": "CEO"
+    "content": "2019 年由新媒體藝術家許巽翔和材料工程師黃胤豪所創立的藝術團體。他們以科技行業被廣泛使用的電子掃描顯微鏡（SEM）做為主要創作工具，試圖以最極端的視角呈現材料的本質。通過科技之眼，他們顛覆了觀者對材料的基本認知，並通過他們的視角，使用各種材料的紋理圖像創造出如地下秘密城 市、深海廢墟或失落文明般的奇觀微觀世界。他們擅長通過結合類比和數位的手法來展示作品，將隱藏在材料中的訊息轉換成景觀，為觀看這個世界帶來另一種視角。",
+    "image": "assets/imgs/testim/2.jpg",
+    "author": " NANONANO",
+    "position": ""
   },
   {
     "id": 3,
-    "content": "I have been hiring people in this space for a number of years and I have never seen this level of professiona lism. It really feels like you are working with a team that can get the job done i have been hiring people in this space for a number of years.",
+    "content": "陳宣名與黃瑞民兩位創作者共同主持，專以視覺藝術、空間展示、文化資產發展 、藝術計劃為主體並嘗試多樣性跨界合作，以及探討在地性與創作的連結。近年多次參與國內大型聲光展演、演唱會視覺及表演藝術計畫，致力發展影像與實體結合的多元性可能。",
     "image": "assets/imgs/testim/3.jpg",
-    "author": "Leonard Heiser",
-    "position": "CEO"
+    "author": "玖格設計",
+    "position": ""
   },
   {
     "id": 4,
-    "content": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.",
+    "content": "位研究物理與數位虛擬之聯繫性的藝術創作者。他想像出新的世界，並在藝術設計、建築空間、電腦模擬圖像間嘗試創造一個能夠產生鏈結的語言與美學。2021 年首部 VR 作品《彼岸》入圍翠貝卡影展沈浸式單元，並勇奪捷克 AniFilm 最佳 VR 大獎。協助安娜琪舞蹈劇場《永恆的直線》於 2022 世界劇場設計展中轉化為全數位 VR 版本。個人全新 VR 作品《暗面》入圍新影像影展市場展，預計於今年正式首映。",
     "image": "assets/imgs/testim/4.jpg",
-    "author": "Leonard Heiser",
-    "position": "CEO"
+    "author": "謝文毅",
+    "position": ""
+  },
+  {
+    "id": 5,
+    "content": "洛杉磯新媒體藝術家、研究者和設計師。她近期的研究和媒體藝術實踐研究——〈推測裝配〉（A Speculative Assemblage）——在實驗數據視覺化背景下，基於互動式圖像數據而產生出的由人類與機械所構成的真實世界、推理性設計、回應型智能系統和沉浸式媒體。",
+    "image": "assets/imgs/testim/5.jpg",
+    "author": "張味迪",
+    "position": ""
+  },
+  {
+    "id": 6,
+    "content": "現居於柏林的動畫藝術家。 在委託創作外，他每兩到三年會製作一部免費動畫。以作品探索新的形式，如動畫裝置、360°視覺影像、穹頂投影、VR、光柵印刷和野生動物動畫紀錄片。",
+    "image": "assets/imgs/testim/6.jpg",
+    "author": "馬爾滕·艾薩克·德希爾",
+    "position": ""
+  },
+  {
+    "id": 7,
+    "content": "跨域藝術家，展覽足跡遍布加拿大和歐洲。 她的作品藉由推測調研的方式對物質性、舞台和形式的概念進行探索，經常透過使用數位技術和雕塑的媒介，在處理真實材質與物件的過程中，處理與前述概念之間產生的關聯與影響。",
+    "image": "assets/imgs/testim/7.jpg",
+    "author": "弗朗西斯·阿代爾·麥肯齊",
+    "position": ""
+  },
+  {
+    "id": 8,
+    "content": "來自建築工程領域，現為德國 Studio Schwitalla 建築師兼創意總監，在柏林生活和工作。2007 年從烏克蘭 Prydniprovska 國立土木工程與建築學院獲得建築文憑。他的創作關注沉浸式視覺如何成為探索建築傳播工具的新方式。 ",
+    "image": "assets/imgs/testim/8.jpg",
+    "author": "謝爾蓋·普羅科菲耶夫",
+    "position": ""
+  },
+  {
+    "id": 9,
+    "content": "法國視覺藝術家，創作包含沉浸式裝置作品、360 度穹頂影像製作、實驗 VR 和音像現場展演。透過多重媒體的創作手法，精巧模擬出類比與數位世界連結中所產生的迴圈和錯訊，藉用有機質地和光線，創造感官體驗，探索人類的感知。",
+    "image": "assets/imgs/testim/9.jpg",
+    "author": "塞巴斯蒂安・拉布尼",
+    "position": ""
+  },
+  {
+    "id": 10,
+    "content": "一位擁有視覺藝術背景的經濟學家。她尋覓多重創新的方式呈現經濟模組的各種元素。生成式視覺的發展反映了經濟學中常見的最佳化過程：透過電腦程式的編程來提高創作的最大效率。在她的作品中，理論元素不斷與現實世界的複雜性相對抗。高度數學精確化的視覺風格不僅呈現結構化的組織，也揭示了其自帶的解構性。",
+    "image": "assets/imgs/testim/10.jpg",
+    "author": "莉迪亞・雅科諾夫斯基",
+    "position": ""
+  },
+  {
+    "id": 11,
+    "content": "為魁北克大學動畫設計學院副教授、Mimesis與Hexagram實驗室之網路合作研究員，以及沉浸式視覺音樂領域的實踐者。 在數位藝術領域，他目前專注於觸發感官體驗的視覺聲音表演，並探索音樂視覺之間的關係，以及藝術與技術的交會點。",
+    "image": "assets/imgs/testim/11.jpg",
+    "author": "Yan Breuleux",
+    "position": ""
+  },
+  {
+    "id": 12,
+    "content": "創作專注於手繪動畫中身體苦行、擷取特徵、製造虛幻的語意特性，表現堆疊的時間與情感；若影幀作為人理解時間空間的一種方式，動畫則是重組來自不同的當下，產生出新的時間、地點，以這個角度觀看動畫的錯覺，與真實對照，產生虛實相互拉扯的空間感，對於存在的懷疑。",
+    "image": "assets/imgs/testim/12.jpg",
+    "author": "莊禾",
+    "position": ""
+  },
+  {
+    "id": 13,
+    "content": "從資訊背景跨入新媒體藝術領域，畢業於臺北藝術大學新媒體藝術研究所，共同創辦沃手工作藝術團隊，現為 C-LAB 科技媒體實驗平台FUTURE VISION LAB計畫主持人。致力於將類比與數位進行轉譯演算。擅長軟硬體整合、系統設計、演算生成、聲音裝置與燈光裝置等，長期專注以各種技術形式來探索不同媒材之間的可能性。",
+    "image": "assets/imgs/testim/13.jpg",
+    "author": "蔡奇宏",
+    "position": ""
   }
+
+
+
+
 ]

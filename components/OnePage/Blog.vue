@@ -4,15 +4,15 @@
       <div class="sec-head mb-80">
         <div class="row">
           <div class="col-lg-8">
-            <h6 class="sub-title wow fadeInUp">Featured Stories</h6>
+            <h6 class="sub-title wow fadeInUp">sessions</h6>
             <h2 class="d-rotate wow">
-              <span class="rotate-text">Latest News</span>
+              <span class="rotate-text">節目場次</span>  
             </h2>
           </div>
           <div class="col-lg-4 d-flex align-items-center">
             <div class="full-width d-flex justify-content-end justify-end">
               <div class="vew-all wow fadeIn">
-                <NuxtLink to="/dark/blog-classic">View All Our News
+                <!-- <NuxtLink to="/dark/blog-classic">View All Our News
                   <span>
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -20,7 +20,7 @@
                         fill="currentColor"></path>
                     </svg>
                   </span>
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
             </div>
           </div>
@@ -34,13 +34,13 @@
               <div class="d-flex align-items-center">
                 <div class="author">
                   <div class="img">
-                    <img :src="item.author.picture" alt="" />
+                    <!-- <img :src="item.author.picture" alt="" /> -->
                   </div>
                 </div>
-                <div class="author-info">
+                <!-- <div class="author-info">
                   <span class="fz-13 opacity-8 mb-5">Posted by</span>
                   <h6 class="fz-18">{{ item.author.name }}</h6>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -62,9 +62,9 @@
         </div>
         <div class="background bg-img valign text-center" :data-background="item.image" data-overlay-dark="4">
           <div class="more ontop full-width">
-            <NuxtLink to="/dark/blog-details">
+            <!-- <NuxtLink to="/dark/blog-details">
               <span>Read More <i class="fas fa-arrow-right ml-10"></i></span>
-            </NuxtLink>
+            </NuxtLink> -->
           </div>
         </div>
       </div>

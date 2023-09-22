@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-crev no-crev section-padding">
+  <!-- <section class="contact-crev no-crev section-padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -65,5 +65,5 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>

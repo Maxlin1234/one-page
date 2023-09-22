@@ -1,11 +1,11 @@
 <template>
-  <div class="clients section-padding pb-100 position-re">
+  <!-- <div class="clients section-padding pb-100 position-re">
     <div class="container">
       <div class="row justify-content-center mb-80">
         <div class="col-lg-6 text-center">
           <div class="text">
             <h3>We create experiences and turn ideas into reality.</h3>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
@@ -19,7 +19,7 @@
                   <img :src="`/${lightMode ? 'light' : 'dark'}${item}`" alt="" />
                 </div>
                 <a :href="appData.author_link" class="link" data-splitting>
-                  www.GeekFolio.com
+                
                 </a>
               </div>
             </div>
@@ -29,7 +29,7 @@
     </div>
     <div class="bg-pattern patrn1 bg-img opacity-5"
       :data-background="`/${lightMode ? 'light' : 'dark'}/assets/imgs/patterns/pattern.svg`"></div>
-  </div>
+  </div> -->
 </template>
   
 <script setup>

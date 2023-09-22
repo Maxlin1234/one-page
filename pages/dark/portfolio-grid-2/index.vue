@@ -10,9 +10,10 @@
 </template>
 
 <script setup>
+// import { title } from 'process';
 const metadata = {
   subTitle: "Our Works",
-  title: "作品介紹"
+  title: "作品分類"
 }
 
 //= Page Head
